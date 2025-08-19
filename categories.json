@@ -1,0 +1,18 @@
+
+[
+  {
+    "id": "sweets",
+    "name": "الحلويات الشرقية",
+    "image": "https://i.postimg.cc/5tWG4hDZ/FB-IMG-1755636440398.jpg"
+  },
+  {
+    "id": "cakes",
+    "name": "الكيك",
+    "image": "https://i.postimg.cc/QMgzH63V/FB-IMG-1755636480188.jpg"
+  },
+  {
+    "id": "pastries",
+    "name": "المعجنات",
+    "image": "https://i.postimg.cc/TYwvBXX0/FB-IMG-1755636290314.jpgs"
+  }
+]

@@ -1,0 +1,31 @@
+
+{
+  "theme": {
+    "primary": "#B8924D",
+    "primaryDark": "#8B6E3B",
+    "primaryLight": "#DCC08D",
+    "accent": "#9C2F3B",
+    "bg": "#FFF8EF",
+    "surface": "#FFFFFF",
+    "text": "#2F2A25",
+    "mutedText": "#6F655E",
+    "border": "#E7DFD2"
+  },
+  "locale": {
+    "currency": "EGP"
+  },
+  "ui": {
+    "bannerIntervalMs": 3000,
+    "toastDurationMs": 2000,
+    "featuredLimit": 5
+  },
+  "home": {
+    "banners": [
+      "https://i.postimg.cc/d1Tdn0qf/Whats-App-Image-2025-08-20-at-01-42-32-6c17bc6b.jpg",
+      "https://i.postimg.cc/nrbmWtrh/Whats-App-Image-2025-08-20-at-01-42-35-627782dc.jpg",
+      "https://i.postimg.cc/DwBqwDjx/Whats-App-Image-2025-08-20-at-01-42-35-3972e794.jpg",
+      "https://i.postimg.cc/YSPY1Fwg/Whats-App-Image-2025-08-20-at-01-42-32-21dd5412.jpg"
+    ]
+  },
+  "whatsappNumber": "201027176052"
+}

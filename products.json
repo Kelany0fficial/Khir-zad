@@ -1,0 +1,145 @@
+[
+  {
+    "id": 1,
+    "name": "بسبوسة بالقشطة",
+    "price": 50,
+    "category": "sweets",
+    "featured": true,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/7YbjmMgQ/FB-IMG-1755636391271.jpg"],
+    "shortDesc": "بسبوسة طرية بالقشطة الطازجة",
+    "description": "بسبوسة مصنوعة من أجود المكونات مع طبقة غنية من القشطة."
+  },
+  {
+    "id": 2,
+    "name": "كنافة بالمانجو",
+    "price": 60,
+    "category": "sweets",
+    "featured": true,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/SRQbyBYy/FB-IMG-1755636265536.jpg"],
+    "shortDesc": "كنافة مقرمشة مع حشوة المانجو",
+    "description": "مزيج رائع من الكنافة المقرمشة وحشوة المانجو الطازجة."
+  },
+  {
+    "id": 3,
+    "name": "كيكة الشوكولاتة",
+    "price": 120,
+    "category": "cakes",
+    "featured": true,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/FzC8h7QZ/FB-IMG-1755636375291.jpg"],
+    "shortDesc": "كيكة شوكولاتة غنية",
+    "description": "كيكة شوكولاتة ناعمة مغطاة بطبقة الجاناش الفاخرة."
+  },
+  {
+    "id": 4,
+    "name": "تشيز كيك بالتوت",
+    "price": 85,
+    "category": "cakes",
+    "featured": true,
+    "occasion": false,
+    "images": ["https://i.postimg.cc/vm5J5YWY/FB-IMG-1755636363130.jpg"],
+    "shortDesc": "تشيز كيك كريمي مع صلصة التوت",
+    "description": "تشيز كيك ناعم مع قاعدة بسكويت مقرمشة وطبقة من صلصة التوت الطازجة."
+  },
+  {
+    "id": 5,
+    "name": "معمول بالتمر",
+    "price": 70,
+    "category": "sweets",
+    "featured": false,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/ydBwPMPF/FB-IMG-1755636335193.jpg"],
+    "shortDesc": "معمول تقليدي بحشوة التمر",
+    "description": "معمول محشو بتمر عالي الجودة ومنكه بماء الورد."
+  },
+  {
+    "id": 6,
+    "name": "كوكيز الشوكولاتة",
+    "price": 45,
+    "category": "cookies",
+    "featured": false,
+    "occasion": false,
+    "images": ["https://i.postimg.cc/YCLKqf0m/FB-IMG-1755636326820.jpg"],
+    "shortDesc": "كوكيز شوكولاتة غنية بالشوكولاتة",
+    "description": "كوكيز طري ومقرمش مع قطع شوكولاتة داكنة."
+  },
+  {
+    "id": 7,
+    "name": "حلوى التيراميسو",
+    "price": 65,
+    "category": "cakes",
+    "featured": true,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/MKFJSr6S/FB-IMG-1755636322477.jpg"],
+    "shortDesc": "تيراميسو إيطالي أصلي",
+    "description": "طبقات من البسكويت المغموس في القهوة والجبنة الماسكاربوني."
+  },
+  {
+    "id": 8,
+    "name": "بقلاوة بالجوز",
+    "price": 55,
+    "category": "sweets",
+    "featured": false,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/5NGTGYg9/FB-IMG-1755636416430.jpg"],
+    "shortDesc": "بقلاوة مقرمشة محشوة بالجوز",
+    "description": "طبقات رقيقة من العجين محشوة بالجوز والغارقة في القطر."
+  },
+  {
+    "id": 9,
+    "name": "دوناتس متنوعة",
+    "price": 40,
+    "category": "cookies",
+    "featured": false,
+    "occasion": false,
+    "images": ["https://i.postimg.cc/TYwvBXX0/FB-IMG-1755636290314.jpg"],
+    "shortDesc": "دوناتس طازجة بتغطيات متنوعة",
+    "description": "دوناتس طرية مغطاة بالشوكولاتة، الجليد الملون والرشات."
+  },
+  {
+    "id": 10,
+    "name": "كعكة الجزر",
+    "price": 95,
+    "category": "cakes",
+    "featured": false,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/1tHbYvCb/FB-IMG-1755636344688.jpg"],
+    "shortDesc": "كعكة جزر مع جبنة كريمية",
+    "description": "كعكة جزر رطبة مع مكسرات وتغطية من جبنة كريمية."
+  },
+  {
+    "id": 11,
+    "name": "مكرونة بلح الشام",
+    "price": 50,
+    "category": "sweets",
+    "featured": false,
+    "occasion": false,
+    "images": ["https://i.postimg.cc/mkdfhm77/FB-IMG-1755636268686.jpg"],
+    "shortDesc": "مكرونة بلح الشام التقليدية",
+    "description": "حلويات شامية تقليدية محشوة بالقشطة والقطر."
+  },
+  {
+    "id": 12,
+    "name": "ماكروون فرنسي",
+    "price": 75,
+    "category": "cookies",
+    "featured": true,
+    "occasion": true,
+    "images": ["https://i.postimg.cc/qRxdHJRb/FB-IMG-1755636271114.jpg"],
+    "shortDesc": "ماكروون بألوان ونكهات مختلفة",
+    "description": "ماكروون فرنسي هش مع حشوات كريمية بنكهات مختلفة."
+  },
+  {
+    "id": 13,
+    "name": "فطيرة التفاح",
+    "price": 80,
+    "category": "cakes",
+    "featured": false,
+    "occasion": false,
+    "images": ["https://i.postimg.cc/7YbjmMgQ/FB-IMG-1755636391271.jpg"],
+    "shortDesc": "فطيرة تفاح بالقرفة",
+    "description": "فطيرة تفاح محلية الصنع مع قشرة ذهبية مقرمشة ونكهة قرفة دافئة."
+  }
+]

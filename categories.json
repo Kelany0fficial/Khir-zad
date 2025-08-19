@@ -1,18 +1,23 @@
 
 [
   {
-    "id": "sweets",
+    "id": "s",
     "name": "الحلويات الشرقية",
-    "image": "https://i.postimg.cc/5tWG4hDZ/FB-IMG-1755636440398.jpg"
+    "image": "https://i.postimg.cc/wMXN8bRc/Whats-App-Image-2025-08-20-at-01-42-36-94d120ad.jpg"
   },
   {
-    "id": "cakes",
+    "id": "c",
     "name": "الكيك",
     "image": "https://i.postimg.cc/QMgzH63V/FB-IMG-1755636480188.jpg"
   },
   {
-    "id": "pastries",
+    "id": "p",
     "name": "المعجنات",
-    "image": "https://i.postimg.cc/TYwvBXX0/FB-IMG-1755636290314.jpgs"
+    "image": "https://i.postimg.cc/nrbmWtrh/Whats-App-Image-2025-08-20-at-01-42-35-627782dc.jpg"
+  },
+  {
+    "id": "sh",
+    "name": "المشروبات",
+    "image": "https://i.postimg.cc/dt806yGd/Whats-App-Image-2025-08-20-at-02-02-41-c745d133.jpg"
   }
 ]

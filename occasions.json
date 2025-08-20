@@ -1,0 +1,23 @@
+
+[
+  {
+    "id": "birthday",
+    "name": "أعياد الميلاد",
+    "image": "https://i.postimg.cc/wMXN8bRc/Whats-App-Image-2025-08-20-at-01-42-36-94d120ad.jpg"
+  },
+  {
+    "id": "engagement",
+    "name": "الخطوبة",
+    "image": "https://i.postimg.cc/QMgzH63V/FB-IMG-1755636480188.jpg"
+  },
+  {
+    "id": "wedding",
+    "name": "الزفاف",
+    "image": "https://i.postimg.cc/nrbmWtrh/Whats-App-Image-2025-08-20-at-01-42-35-627782dc.jpg"
+  },
+  {
+    "id": "graduation",
+    "name": "التخرج",
+    "image": "https://i.postimg.cc/dt806yGd/Whats-App-Image-2025-08-20-at-02-02-41-c745d133.jpg"
+  }
+]

@@ -12,7 +12,8 @@ const api = {
   },
   config: null,
   products: null,
-  categories: null
+  categories: null,
+  occasions: null
 };
 
 function qs(sel, ctx = document) { return ctx.querySelector(sel); }
@@ -89,12 +90,14 @@ function buildBanner() {
 }
 
 async function loadData() {
-  const [products, categories] = await Promise.all([
+  const [products, categories, occasions] = await Promise.all([
     api.load('products.json'),
-    api.load('categories.json')
+    api.load('categories.json'),
+    api.load('occasions.json')
   ]);
   api.products = products || [];
   api.categories = categories || [];
+  api.occasions = occasions || [];
 }
 
 function cardHTML(p) {
@@ -150,13 +153,17 @@ function renderCategories() {
 
 function renderOccasionsPage() {
   const grid = qs('#occasionsContent');
-  if (!grid || !api.products) {
-    if (grid) grid.innerHTML = '<div class="error-img" style="padding:16px;color:var(--color-muted);text-align:center">لا توجد منتجات للمناسبات</div>';
+  if (!grid || !api.occasions) {
+    if (grid) grid.innerHTML = '<div class="error-img" style="padding:16px;color:var(--color-muted);text-align:center">لا توجد فئات مناسبات</div>';
     return;
   }
-  // Filter products suitable for occasions (assuming products with 'occasion' tag)
-  const occasionProducts = api.products.filter(p => p.occasion);
-  grid.innerHTML = occasionProducts.length ? occasionProducts.map(p => cardHTML(p)).join('') : '<div class="error-img" style="padding:16px;color:var(--color-muted);text-align:center">لا توجد منتجات للمناسبات الآن</div>';
+  grid.innerHTML = api.occasions.map(o => `
+    <a href="products.html?occasion=${o.id}" class="category-banner" aria-label="عرض منتجات ${o.name}">
+      <img src="${o.image}" alt="${o.name}" loading="lazy" onerror="this.outerHTML='<div class=&quot;error-img&quot; style=&quot;width:100%;height:100%;display:grid;place-items:center;color:var(--color-muted)&quot;>صورة غير متوفرة</div>'">
+      <div class="overlay"></div>
+      <div class="title">${o.name}</div>
+    </a>
+  `).join('');
 }
 
 function quickAddToCart(id) {
@@ -188,7 +195,6 @@ function removeFromFav(id) {
   toast('تم الحذف من المفضلة');
   renderFavoritesPage();
 }
-
 
 function renderCart() {
   const list = qs('#cartList');
@@ -266,7 +272,13 @@ function renderProductsPage() {
     return;
   }
   const cat = param('category');
-  const filtered = cat ? api.products.filter(p => p.category === cat) : api.products;
+  const occ = param('occasion');
+  let filtered = api.products;
+  if (cat) {
+    filtered = filtered.filter(p => p.category === cat);
+  } else if (occ) {
+    filtered = filtered.filter(p => p.occasion && p.occasion === occ);
+  }
   grid.innerHTML = filtered.length ? filtered.map(p => cardHTML(p)).join('') : '<div class="error-img" style="padding:16px;color:var(--color-muted);text-align:center">لا توجد منتجات في هذا القسم</div>';
 }
 

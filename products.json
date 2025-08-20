@@ -5,7 +5,7 @@
     "price": 50,
     "category": "s",
     "featured": true,
-    "occasion": true,
+    "occasion": "birthday",
     "images": ["https://i.postimg.cc/7YbjmMgQ/FB-IMG-1755636391271.jpg"],
     "shortDesc": "بسبوسة طرية بالقشطة الطازجة",
     "description": "بسبوسة مصنوعة من أجود المكونات مع طبقة غنية من القشطة."
@@ -16,7 +16,7 @@
     "price": 60,
     "category": "c",
     "featured": true,
-    "occasion": true,
+    "occasion": "birthday",
     "images": ["https://i.postimg.cc/SRQbyBYy/FB-IMG-1755636265536.jpg"],
     "shortDesc": "كنافة مقرمشة مع حشوة المانجو",
     "description": "مزيج رائع من الكنافة المقرمشة وحشوة المانجو الطازجة."
@@ -27,7 +27,7 @@
     "price": 120,
     "category": "p",
     "featured": true,
-    "occasion": true,
+    "occasion": "birthday",
     "images": ["https://i.postimg.cc/FzC8h7QZ/FB-IMG-1755636375291.jpg"],
     "shortDesc": "كيكة شوكولاتة غنية",
     "description": "كيكة شوكولاتة ناعمة مغطاة بطبقة الجاناش الفاخرة."
@@ -38,7 +38,7 @@
     "price": 85,
     "category": "sh",
     "featured": true,
-    "occasion": false,
+    "occasion": null,
     "images": ["https://i.postimg.cc/vm5J5YWY/FB-IMG-1755636363130.jpg"],
     "shortDesc": "تشيز كيك كريمي مع صلصة التوت",
     "description": "تشيز كيك ناعم مع قاعدة بسكويت مقرمشة وطبقة من صلصة التوت الطازجة."
@@ -49,7 +49,7 @@
     "price": 70,
     "category": "s",
     "featured": false,
-    "occasion": true,
+    "occasion": null,
     "images": ["https://i.postimg.cc/ydBwPMPF/FB-IMG-1755636335193.jpg"],
     "shortDesc": "معمول تقليدي بحشوة التمر",
     "description": "معمول محشو بتمر عالي الجودة ومنكه بماء الورد."
@@ -60,7 +60,7 @@
     "price": 45,
     "category": "c",
     "featured": false,
-    "occasion": false,
+    "occasion": "engagement",
     "images": ["https://i.postimg.cc/YCLKqf0m/FB-IMG-1755636326820.jpg"],
     "shortDesc": "كوكيز شوكولاتة غنية بالشوكولاتة",
     "description": "كوكيز طري ومقرمش مع قطع شوكولاتة داكنة."
@@ -71,7 +71,7 @@
     "price": 65,
     "category": "p",
     "featured": true,
-    "occasion": true,
+    "occasion": "engagement",
     "images": ["https://i.postimg.cc/MKFJSr6S/FB-IMG-1755636322477.jpg"],
     "shortDesc": "تيراميسو إيطالي أصلي",
     "description": "طبقات من البسكويت المغموس في القهوة والجبنة الماسكاربوني."
@@ -82,7 +82,7 @@
     "price": 55,
     "category": "s",
     "featured": false,
-    "occasion": true,
+    "occasion": "engagement",
     "images": ["https://i.postimg.cc/5NGTGYg9/FB-IMG-1755636416430.jpg"],
     "shortDesc": "بقلاوة مقرمشة محشوة بالجوز",
     "description": "طبقات رقيقة من العجين محشوة بالجوز والغارقة في القطر."
@@ -93,7 +93,7 @@
     "price": 40,
     "category": "c",
     "featured": false,
-    "occasion": false,
+    "occasion": "wedding",
     "images": ["https://i.postimg.cc/TYwvBXX0/FB-IMG-1755636290314.jpg"],
     "shortDesc": "دوناتس طازجة بتغطيات متنوعة",
     "description": "دوناتس طرية مغطاة بالشوكولاتة، الجليد الملون والرشات."
@@ -104,7 +104,7 @@
     "price": 95,
     "category": "p",
     "featured": false,
-    "occasion": true,
+    "occasion": "wedding",
     "images": ["https://i.postimg.cc/1tHbYvCb/FB-IMG-1755636344688.jpg"],
     "shortDesc": "كعكة جزر مع جبنة كريمية",
     "description": "كعكة جزر رطبة مع مكسرات وتغطية من جبنة كريمية."
@@ -115,7 +115,7 @@
     "price": 50,
     "category": "sh",
     "featured": false,
-    "occasion": false,
+    "occasion": "wedding",
     "images": ["https://i.postimg.cc/mkdfhm77/FB-IMG-1755636268686.jpg"],
     "shortDesc": "مكرونة بلح الشام التقليدية",
     "description": "حلويات شامية تقليدية محشوة بالقشطة والقطر."
@@ -126,7 +126,7 @@
     "price": 75,
     "category": "s",
     "featured": true,
-    "occasion": true,
+    "occasion": "graduation",
     "images": ["https://i.postimg.cc/qRxdHJRb/FB-IMG-1755636271114.jpg"],
     "shortDesc": "ماكروون بألوان ونكهات مختلفة",
     "description": "ماكروون فرنسي هش مع حشوات كريمية بنكهات مختلفة."
@@ -137,7 +137,7 @@
     "price": 80,
     "category": "c",
     "featured": false,
-    "occasion": false,
+    "occasion": "graduation",
     "images": ["https://i.postimg.cc/7YbjmMgQ/FB-IMG-1755636391271.jpg"],
     "shortDesc": "فطيرة تفاح بالقرفة",
     "description": "فطيرة تفاح محلية الصنع مع قشرة ذهبية مقرمشة ونكهة قرفة دافئة."
